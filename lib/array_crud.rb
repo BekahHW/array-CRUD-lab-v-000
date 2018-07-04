@@ -11,23 +11,19 @@ def add_element_to_end_of_array(array, element)
 end
 
 def add_element_to_start_of_array(array, element)
-  family = ["Raphael", "Gemma", "Ambrose", "Cordelia"]
-  family.unshift("Jesse")
-end
+ array.unshift(element)
+ end
 
 def remove_element_from_end_of_array(array)
-   family = ["Raphael", "Gemma", "Ambrose", "Cordelia"]
-   family.pop
+    array.pop
 end
 
 def remove_element_from_start_of_array(array)
-   family = ["Raphael", "Gemma", "Ambrose", "Cordelia"]
-   family.shift
+    array.shift
 end
 
 def retrieve_element_from_index(array, index_number)
-   family = ["Raphael", "Gemma", "Ambrose", "Cordelia"]
-  family[0]
+  array[0]
 end
 
 def retrieve_first_element_from_array(array)

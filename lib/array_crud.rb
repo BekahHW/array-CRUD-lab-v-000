@@ -3,24 +3,27 @@ def create_an_empty_array
 end
 
 def create_an_array
-  kids = ["Raphael", "Gemma", "Ambrose", "Cordelia"]
+  family = ["Raphael", "Gemma", "Ambrose", "Cordelia"]
 end
 
 def add_element_to_end_of_array(array, element)
-  kids = ["Raphael", "Gemma", "Ambrose", "Cordelia"]
-  kids.
+  family = ["Raphael", "Gemma", "Ambrose", "Cordelia"]
+  family.push("Jesse")
 end
 
 def add_element_to_start_of_array(array, element)
-  
+  family = ["Raphael", "Gemma", "Ambrose", "Cordelia"]
+  family.unshift("Jesse")
 end
 
 def remove_element_from_end_of_array(array)
-  
+   family = ["Raphael", "Gemma", "Ambrose", "Cordelia"]
+   family.pop
 end
 
 def remove_element_from_start_of_array(array)
-  
+   family = ["Raphael", "Gemma", "Ambrose", "Cordelia"]
+  family.push("Jesse")
 end
 
 def retrieve_element_from_index(array, index_number)

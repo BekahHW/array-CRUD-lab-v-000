@@ -23,11 +23,12 @@ end
 
 def remove_element_from_start_of_array(array)
    family = ["Raphael", "Gemma", "Ambrose", "Cordelia"]
-  family.push("Jesse")
+   family.shift
 end
 
 def retrieve_element_from_index(array, index_number)
-  
+   family = ["Raphael", "Gemma", "Ambrose", "Cordelia"]
+  family[0]
 end
 
 def retrieve_first_element_from_array(array)
